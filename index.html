@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="left">
+            <h1>Danh sach san pham</h1>
+            <div class="itemlist">
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 1</p>
+                    <p id="cost">1000000 vnd</p>
+                    <button onclick="buy(id)" id="0" class="buy_button">Buy</button>
+                </div>
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 2</p>
+                    <p id="cost">2000000 vnd</p>
+                    <button onclick="buy(id)" id="1" class="buy_button">Buy</button>
+                </div>
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 3</p>
+                    <p id="cost">3000000 vnd</p>
+                    <button onclick="buy(id)" id="2" class="buy_button">Buy</button>
+                </div>
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 4</p>
+                    <p id="cost">4000000 vnd</p>
+                    <button onclick="buy(id)" id="3" class="buy_button">Buy</button>
+                </div>
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 5</p>
+                    <p id="cost">5000000 vnd</p>
+                    <button onclick="buy(id)" id="4" class="buy_button">Buy</button>
+                </div>
+                <div id="id" class="item">
+                    <img src="./img/tải xuống.png" alt="">
+                    <p id="nameproduct" class="item_name">Produce 6</p>
+                    <p id="cost">6000000 vnd</p>
+                    <button onclick="buy(id)" id="5" class="buy_button">Buy</button>
+                </div>
+
+            </div>
+        </div>
+        <div id="board" class="right">
+            <h1>Thanh toan</h1>
+            <p>Tong so tien:
+                <span id="totalprice">0</span>
+            </p>
+            <p>San pham</p>
+            <div class="buy_list">
+                <ul id="buy--list">
+
+                    <!-- <li class="buy_item">
+                        <p>product 1 : 18.000.000</p>
+                        <div class="amount">
+                            <button id="sub_button" onclick="subclick(id)" class="amount button">-</button>
+                            <p id="number" value="1">1</p>
+                            <button id="add_button" onclick="addclick(id)" class="amount button">+</button>
+                        </div>
+
+                    </li>
+                    <li class="buy_item">
+                        <p>product 2 : 18.000.000 </p>
+                        <div class="amount">
+                            <button id="sub_button" onclick="subclick(id)" class="amount button">-</button>
+                            <p id="number" value="1">1</p>
+                            <button id="add_button" onclick="addclick(id)" class="amount button">+</button>
+                        </div>
+                    </li>
+
+                    <li class="buy_item">
+                        <p>product 3 : 18.000.000 </p>
+                        <div class="amount">
+                            <button id="sub_button" onclick="subclick(id)" class="amount button">-</button>
+                            <p id="number" value="1">1</p>
+                            <button id="add_button" onclick="addclick(id)" class="amount button">+</button>
+                        </div>
+
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="node.js"></script>
+</body>
+
+</html>
